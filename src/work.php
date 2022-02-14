@@ -1,7 +1,5 @@
 <?php
-for ($x = 5; $x <= 15; $x++) {
-  echo "The count is: $x <br>";
-}
+  echo 10+5;
 ?>
 <!DOCTYPE html>
 <html lang="en">
