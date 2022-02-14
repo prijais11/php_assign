@@ -1,30 +1,9 @@
 <?php
-$days= 5;
-switch ($days) {
-case 1:
-    echo "Monday";
-    break;
-case 2:
-    echo "Tuesday";
-    break;
-case 3:
-    echo "Wednesday";
-    break;
-case 4:
-    echo "Thursday";
-    break;
-case 5:
-    echo "Friday";
-    break;
-case 6:
-    echo "Saturday";
-    break;
-case 7:
-    echo "Sunday";
-    break;
-default:
-    echo "invalid input";
+$n=6;$fact=1;
+for ($x = 1; $x <= $n; $x++) {
+    $fact=$fact*$x ;
 }
+    echo "factorial of ".$n." is : ".$fact;
 ?>
 <!DOCTYPE html>
 <html lang="en">
