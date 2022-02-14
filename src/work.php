@@ -1,6 +1,7 @@
 <?php
   $color = "red";
-  echo "My car is " . $color."." ;
+  $status="new";
+  echo "My car is " . $color." and ".$status.".";
 ?>
 <!DOCTYPE html>
 <html lang="en">
