@@ -1,5 +1,6 @@
 <?php
-  echo 10+5;
+  $color = "red";
+  echo "My car is " . $color."." ;
 ?>
 <!DOCTYPE html>
 <html lang="en">
